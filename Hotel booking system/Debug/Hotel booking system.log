@@ -1,0 +1,103 @@
+﻿  About.cpp
+  AddHotel.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\AddHotel.h(343): warning C4101: 'components': unreferenced local variable
+  AddRequest.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\AddHotel.h(343): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\Hotelinfo.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(239): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(276): warning C4101: 'components': unreferenced local variable
+  APanel.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\City.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditCity.h(245): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditCity.h(279): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\AddHotel.h(343): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\Hotelinfo.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(239): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(276): warning C4101: 'components': unreferenced local variable
+  Cities.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\City.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditCity.h(245): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditCity.h(279): warning C4101: 'components': unreferenced local variable
+  City.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\City.h(274): warning C4101: 'components': unreferenced local variable
+  CityList.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+  conifirm.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\AddHotel.h(343): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\Hotelinfo.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(239): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(276): warning C4101: 'components': unreferenced local variable
+  EditCity.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\EditCity.h(245): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditCity.h(279): warning C4101: 'components': unreferenced local variable
+  EditHotel.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(239): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(276): warning C4101: 'components': unreferenced local variable
+  EditRequest.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\AddHotel.h(343): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\Hotelinfo.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(239): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(276): warning C4101: 'components': unreferenced local variable
+  Functions.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+  Hotelinfo.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\Hotelinfo.h(274): warning C4101: 'components': unreferenced local variable
+  Hotels.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\AddHotel.h(343): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\Hotelinfo.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(239): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(276): warning C4101: 'components': unreferenced local variable
+  HotelsList.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\AddHotel.h(343): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\Hotelinfo.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(239): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(276): warning C4101: 'components': unreferenced local variable
+  login.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\City.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditCity.h(245): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditCity.h(279): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\AddHotel.h(343): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\Hotelinfo.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(239): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(276): warning C4101: 'components': unreferenced local variable
+login.cpp(13): error C2976: 'std::array': too few template arguments
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+login.cpp(13): error C3699: '^': cannot use this indirection on type 'std::array'
+  login.cpp(13): note: compiler replacing '^' with '*' to continue parsing
+  Requestinfo.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+  Requests.cpp
+d:\my work\first year project\hotel booking system\hotel booking system\main.h(66): warning C4042: 'Citis': has bad storage class
+d:\my work\first year project\hotel booking system\hotel booking system\AddCity.h(263): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\AddHotel.h(343): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\Hotelinfo.h(274): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(239): warning C4101: 'components': unreferenced local variable
+d:\my work\first year project\hotel booking system\hotel booking system\EditHotel.h(276): warning C4101: 'components': unreferenced local variable
+  setting.cpp
+  UPanel.cpp
+  Generating Code...
+d:\my work\first year project\hotel booking system\hotel booking system\functions.cpp(26): warning C4715: 'Search_Hotel_ID': not all control paths return a value
+d:\my work\first year project\hotel booking system\hotel booking system\functions.cpp(39): warning C4715: 'Search_Hotel_Name': not all control paths return a value
+d:\my work\first year project\hotel booking system\hotel booking system\functions.cpp(53): warning C4715: 'Search_Hotel_PPN': not all control paths return a value
+d:\my work\first year project\hotel booking system\hotel booking system\functions.cpp(256): warning C4715: 'CityNAme': not all control paths return a value
+d:\my work\first year project\hotel booking system\hotel booking system\functions.cpp(267): warning C4715: 'Get_City_ID': not all control paths return a value

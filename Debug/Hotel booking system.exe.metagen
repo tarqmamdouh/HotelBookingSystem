@@ -1,0 +1,175 @@
+  Hotelbookingsystem.About.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.AddCity.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.AddHotel.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.AddRequest.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.APanel.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.Cities.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.City.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.CityList.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.conifirm.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.EditCity.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.EditHotel.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.EditRequest.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.Hotelinfo.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.Hotels.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.HotelsList.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.login.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.Requestinfo.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.Requests.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.setting.resources - Embedded, ContainedInManifestFile, 
+  Hotelbookingsystem.UPanel.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Hotel booking system, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Hotelbookingsystem.About: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Hotelbookingsystem.AddCity: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.PictureBox BrowsePic : Public
+    System.Windows.Forms.Button Browse : Public
+Class Hotelbookingsystem.CityList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String id : Public
+    Boolean is_changed : Public
+Class Hotelbookingsystem.AddHotel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.PictureBox BrowsePic2 : Public
+    System.Windows.Forms.Button Browse : Public
+Class Hotelbookingsystem.Hotelinfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.PictureBox BrowsePic : Public
+    System.String Name : Public
+    System.String ID : Public
+    System.String PricePerNight : Public
+    System.String CityName : Public
+Class Hotelbookingsystem.EditHotel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String path : Public
+    Boolean Text_Changed : Public
+    System.String m : Public
+    System.String mb : Public
+    System.Windows.Forms.OpenFileDialog openFileDialog1 : Public
+    Boolean image_changed : Public
+    System.String Name : Public
+    System.String old : Public
+    System.String PricePerNight : Public
+Class Hotelbookingsystem.Hotels: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Hotelbookingsystem.HotelsList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.DataGridView Hlist : Public
+    System.String PPNight : Public
+    System.String id : Public
+    Boolean is_changed : Public
+Class Hotelbookingsystem.conifirm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 NOR : Public
+    Int32 NON : Public
+    System.String ID : Public
+    System.String PPN : Public
+    Int32 TotalCost : Public
+    Boolean y : Public
+    Boolean Requestadded : Public
+Class Hotelbookingsystem.AddRequest: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean Requestadded : Public
+  Methods:
+    Convert(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, String): PrivateScope, Public, HideBySig
+Class Hotelbookingsystem.City: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.PictureBox BrowsePic : Public
+    System.String S : Public
+    System.String ID : Public
+    System.String Num : Public
+Class Hotelbookingsystem.EditCity: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.PictureBox BrowsePicE : Public
+    System.String old : Public
+    System.String name : Public
+    System.String Desc : Public
+    System.String path : Public
+    Boolean Text_Changed : Public
+    System.String m : Public
+    System.String mb : Public
+    System.Windows.Forms.OpenFileDialog openFileDialog1 : Public
+    Boolean image_changed : Public
+Class Hotelbookingsystem.Cities: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Hotelbookingsystem.setting: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String U : Public
+    System.String P : Public
+Class Hotelbookingsystem.EditRequest: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String NumORom : Public
+    System.String NumONi : Public
+    System.String ID : Public
+    System.String total : Public
+    System.String PPN : Public
+    Boolean Text_Changed : Public
+Class Hotelbookingsystem.Requestinfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String NumORom : Public
+    System.String NumONi : Public
+    System.String ID : Public
+    System.String total : Public
+    System.String HName : Public
+Class Hotelbookingsystem.Requests: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Hotelbookingsystem.APanel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Hotelbookingsystem.setting SC : Public
+    Hotelbookingsystem.About AC : Public
+    Hotelbookingsystem.Requests RC : Public
+Class Hotelbookingsystem.login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Hotelbookingsystem.UPanel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

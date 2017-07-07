@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{51B76A9A-C995-40F7-AE41-CC71D615B104}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Hotelbookingsystem</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="About.cpp" />
+    <ClCompile Include="AddHotel.cpp" />
+    <ClCompile Include="AddRequest.cpp" />
+    <ClCompile Include="APanel.cpp" />
+    <ClCompile Include="Cities.cpp" />
+    <ClCompile Include="City.cpp" />
+    <ClCompile Include="CityList.cpp" />
+    <ClCompile Include="conifirm.cpp" />
+    <ClCompile Include="EditCity.cpp" />
+    <ClCompile Include="EditHotel.cpp" />
+    <ClCompile Include="EditRequest.cpp" />
+    <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="Hotelinfo.cpp" />
+    <ClCompile Include="Hotels.cpp" />
+    <ClCompile Include="HotelsList.cpp" />
+    <ClCompile Include="login.cpp" />
+    <ClCompile Include="Requestinfo.cpp" />
+    <ClCompile Include="Requests.cpp" />
+    <ClCompile Include="setting.cpp" />
+    <ClCompile Include="UPanel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="About.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddCity.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddHotel.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddRequest.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="APanel.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cities.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="City.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CityList.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="conifirm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EditCity.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EditHotel.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EditRequest.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Hotelinfo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Hotels.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HotelsList.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Requestinfo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Requests.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="setting.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UPanel.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCity.resx">
+      <DependentUpon>AddCity.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddHotel.resx">
+      <DependentUpon>AddHotel.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRequest.resx">
+      <DependentUpon>AddRequest.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APanel.resx">
+      <DependentUpon>APanel.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cities.resx">
+      <DependentUpon>Cities.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="City.resx">
+      <DependentUpon>City.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CityList.resx">
+      <DependentUpon>CityList.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conifirm.resx">
+      <DependentUpon>conifirm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCity.resx">
+      <DependentUpon>EditCity.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditHotel.resx">
+      <DependentUpon>EditHotel.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditRequest.resx">
+      <DependentUpon>EditRequest.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotelinfo.resx">
+      <DependentUpon>Hotelinfo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotels.resx">
+      <DependentUpon>Hotels.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelsList.resx">
+      <DependentUpon>HotelsList.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Requestinfo.resx">
+      <DependentUpon>Requestinfo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Requests.resx">
+      <DependentUpon>Requests.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setting.resx">
+      <DependentUpon>setting.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UPanel.resx">
+      <DependentUpon>UPanel.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Hotel booking system.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\imgs\Add City.jpg" />
+    <Image Include="..\imgs\hospitality-industry-les-roches (Custom).jpg" />
+    <Image Include="..\imgs\hotel-software-siliguri.jpg" />
+    <Image Include="..\imgs\hotel.png" />
+    <Image Include="..\imgs\Login Background.jpg" />
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
